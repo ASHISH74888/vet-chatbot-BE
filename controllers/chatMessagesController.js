@@ -88,7 +88,7 @@ export const createmssg = async (req, res) => {
 
     // Initialize Chat
     const chat = ai.chats.create({
-      model: "gemini-2.0-flash",
+      model: "models/gemini-flash-latest",
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         tools: [bookAppointmentTool],

@@ -30,7 +30,7 @@
     bottom: 90px;
     right: 20px;
     width: 360px;
-    height: 480px;
+    height: 580px;
     background: white;
     border-radius: 18px;
     box-shadow: 0 20px 60px rgba(0,0,0,0.25);
