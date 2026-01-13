@@ -1,5 +1,5 @@
 import express from "express";
-import { connectDB } from "../backend/config/db.js";
+import { connectDB } from "./config/db.js";
 import dotenv from "dotenv";
 import messageRoutes from "./routes/messageRoutes.js";
 import appointmentRoutes from "./routes/appointmentRoutes.js";
